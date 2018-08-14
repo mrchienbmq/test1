@@ -71,7 +71,7 @@ class BakeryController extends Controller
         $request->validated();
         $bakery = new Bakery();
         $bakery->name = Input::get('name');
-        $bakery->categoryId = Input::get('categoryId');
+        $bakery1111->categoryId = Input::get('categoryId');
         $bakery->price = Input::get('price');
         $bakery->description = Input::get('description');
         if (Input::hasFile('images')) {
